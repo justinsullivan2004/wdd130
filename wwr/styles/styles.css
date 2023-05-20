@@ -44,6 +44,7 @@ nav a:hover {
     color: black;
     font-family: Humans, Arial, Elephant; 
     font: 2em;
+    margin-top: 10px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -68,10 +69,12 @@ main section img {
     box-sizing: border-box;
 }
 .book, .join {
+    background-color: black;
     color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 .book:hover, .join:hover {
@@ -79,6 +82,9 @@ main section img {
 }
 .card_img {
     border: 10px solid black;
+}
+.rivers_card, .camping_card, .rapids_card {
+    margin: 200px 0;
 }
 .msg {
     background-color: #5B7D78;
