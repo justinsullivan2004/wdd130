@@ -46,11 +46,11 @@ nav a:hover {
     font: 2em;
     margin-top: 10px;
 }
-#hero_msg h1, #hero_msg h4, .button_box {
-    text-align: center;
-}
 #hero_image {
     width: 100%;
+}
+#hero_msg h1, #hero_msg h4, .button_box {
+    text-align: center;
 }
 .icon {
     width: 80px;
