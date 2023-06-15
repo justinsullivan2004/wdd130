@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 
-/* *{
-    border: 2px solid blue;
-} */
-
 /* , means and . means class # means id */
 #content {
     max-width: 1600px;
@@ -194,6 +190,77 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+/* faq page */
+#intro-box {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+#intro-image {
+    grid-column: 2/6;
+    width: 1000px;
+    margin: 40px;
+}
+#intro-image, .question-1-image, .question-2-image {
+    border: 10px solid black;
+}
+#banner {
+    background: #D2B48C;
+    height: 125px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title {
+    font-size: 100px;
+    font-family: Humans, Arial, Elephant;
+}
+#question-1 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #6f7364;
+}
+.question-1-image {
+    grid-column: 1/4;
+    width: 100%;
+    margin: 40px
+}
+.question-1-text {
+    grid-column: 5/7;
+}
+.question-1-title {
+    font-family: Humans, Arial, Elephant; 
+    font-size: 35px;
+    line-height: 40px;
+}
+.question-1-paragraph {
+    font-family: Georgia, BlueHighway, Arial;
+    font-size: 27px;
+    line-height: 45px;
+}
+#question-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.question-2-image {
+    grid-column: 2/4;
+    margin: 0 auto;
+    width: 600px;
+    margin: 60px;
+}
+.question-2-text {
+    grid-column: 1/5;
+    height: 250px;
+    background-color: #6f7364;
+    text-align: center;
+    justify-content: center;
+}
+.question-2-title {
+    font-family: Humans, Arial, Elephant; 
+    font-size: 33px;
+}
+.question-2-paragraph {
+    font-family: Georgia, BlueHighway, Arial;
+    font-size: 30px;
+} 
 
 @media screen and (max-width: 900px) {
     #hero, .home_grid {
